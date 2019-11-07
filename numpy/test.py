@@ -1,0 +1,16 @@
+import numpy as np
+
+print("np.__version__:", np.__version__)
+print("np.version.version:", np.version.version)
+print("np.version.full_version:", np.version.full_version)
+print()
+arr2d = np.array([[5, 10, 20], [25, 30, 35], [40, 45, 50]])
+print("arr2d = ([[5, 10, 20], [25, 30, 35], [40, 45, 50]])")
+print()
+print("arr2d =", arr2d)
+print("type(arr2d) is", type(arr2d))
+print()
+print("To access the 4th element (30)...")
+print("arr2d[1][1] =", arr2d[1][1])
+print("arr2d[1, 1] =", arr2d[1, 1])
+print()
